@@ -45,7 +45,7 @@ def predict_page():
     )
 
     # 运用表单和表单提交按钮
-    with st.form('user_inpute'):
+    with st.form('user_inputs'):
         age=st.number_input('年龄',min_value=0)
         sex=st.radio('性别',options=['男性', '女性'])
         bmi=st.number_input('BMI',min_value=0.0) 
