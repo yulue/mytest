@@ -5,7 +5,7 @@ import pandas as pd
 # 设置页面的标题、图标和布局
 st.set_page_config(
     page_title="企鹅分类器",  # 页面标题
-    page_icon=":penguin:",  # 页面图标
+    page_icon="🐧",  # 页面图标
     layout="wide",
 )
 
